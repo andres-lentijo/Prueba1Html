@@ -1,30 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" style="color:#777777; margin:0px; padding: 0px;">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="andres-lentijo">
+  <meta name="description" content="mi sitio web">
+  <meta name="keywords" content="programcion, web">
 <title>
-    Biografia
+  
+  Biografia
 </title>
 
 </head>
-<header>
-<h2>Informaci'on Personal</h2>
+<header style="background-color: black; margin:0px; padding:0px;">
+<h2 style="color:rgb(255, 255, 255);">Informaci'on Personal</h2>
 <hr>
-<p>Nombre: Andres L.  </p>
-<p>Facebook: Andres L. (ejemplo, no uso redes).</p>
+<p style="color:white;">Nombre: Andres L.  </p>
+<p  style="color:white;">Facebook: Andres L. (ejemplo, no uso redes).</p>
 </header>
-<nav><strong>Menu</strong>
+
+<nav style="width:20%; float: left ;margin-right:10%x;">
+  <h3><strong>Menu</strong></h3>
 <ul>
-    <li>Pasatiempos</li>
-    <li>Comidas Favoritas</li>
-    <li>Destinos que he visitado</li>
-    <li>Paises que me gustaria conocer</li>
-    <li>Contacto</li>
+    <li><a href="#pas1">Pasatiempos</a></li>
+    <li><a href="#fav1">Comidas Favoritas</a></li>
+    <li><a href="#dest1">Destinos que he visitado</a></li>
+    <li><a href="#pai1">Paises que me gustaria conocer</a></li>
+    <li><a href="#contacto">Contacto</a></li>
 
 </ul>
 </nav>
 
-<article>
-    <h2>Pasatimepos</h2>
+<article id="ps1" style="width:70%; float: right;">
+    <h2 style="color:blue;">Pasatimepos</h2>
     <hr>
     <ol>
         <li>Lectura en general, menos novelas.</li>
@@ -34,8 +42,8 @@
     </ol>
     </article>
 
-<article>
-<h2>Comidas Favoritas</h2>
+<article id="fav1"  style="width:70%; float: right;">
+<h2 style="color:blue;">Comidas Favoritas</h2>
 <hr>
 <table border="1">
     <caption>
@@ -80,8 +88,8 @@ Top 3
 
 </article>
 
-<article>
-<h2>Destinos que he visitado.</h2>
+<article id="dest1"  style="width:70%; float: right;">
+<h2 style="color:blue;">Destinos que he visitado.</h2>
 <hr>
 <p>Medellin</p>
 <p>Cali</p>
@@ -90,8 +98,8 @@ Top 3
 <p>Bucaramanga</p>
 
 </article>
-<article>
-    <h2>Paises que me gustaria conocer</h2>
+<article id="pai1" style="width:70%; float: right;">
+    <h2  style="color:blue;">Paises que me gustaria conocer</h2>
     <hr>
     <p>Brasil</p>
     <p>Japon</p>
@@ -99,19 +107,23 @@ Top 3
 
     
     </article>
-<footer>
-  <fieldset>
-<legend>Informacion de contacto</legend>
-<h2><strong>Contacto</strong></h2>
+<footer id="contacto" style="width: 100%; margin-top:100px; float: right;">
+  <fieldset style="background-color:#dddddd;">
+<legend style="color:black;">Informacion de contacto</legend>
+<h2  style="color:blue;"><strong>Contacto</strong></h2>
 <hr>
 <a href="mailto:andresl@icloud.com">andresl@icloud.com</a><br>
 <a href="tel:310 123 4567">310 123 4567</a><br>
 <button>Facebook<br>
-    <input type="image" width="80" src="./recursos/facebook.jpg"></button>
-    <button>Facebook<br>
-        <input type="image" width="120" src="./recursos/instagram.png"></button>
-        <button>Facebook<br>
-            <input type="image" width="120" src="./recursos/x.png"></button>
+    <input type="image" width="80"  height="80" src="./recursos/facebook.jpg"></button>
+    <button>Instagram<br>
+        <input type="image" width="80" height="80" src="./recursos/instagram.png"></button>
+    <button>X<br>
+            <input type="image" width="80" height="80" src="./recursos/x.png"></button>
+            <br>
+            <a href="#pas1">Pasatiempos</a>
+            <a href="#fav1">Comidas favoritas</a>
+            <a href="#dest1">Destinos</a>
   </fieldset>
 
 
