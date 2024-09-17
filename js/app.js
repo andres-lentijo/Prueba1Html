@@ -200,6 +200,13 @@
 // alert( `${cantidad} pesos son: ${dolar * cantidad} USD ${euro * cantidad} Euros ${libraE * cantidad} Libras`); 
 
 
-
+/*
 let cantidad = prompt("cantidad de dinero");
 alert( `${cantidad} USD son: ${4280 * cantidad} COP || ${cantidad} EUR ${4728 * cantidad} COP || ${cantidad} GBP ${5601 * cantidad} COP`); 
+*/
+
+
+for (let i = 0; i <= 100 ; i++ ) {
+    i = i + 1 ;
+    console.log(i);
+}
