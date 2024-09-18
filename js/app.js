@@ -176,6 +176,33 @@
 // let dolar = 4280;
 // let euro = 4728;
 // let libraE = 5601;
+// let cantidad = parseInt(prompt("Seleccione la cantidad"));
+// 
+// switch(cantidad){
+//     case cantidad: console.log(cantidad, "COP", cantidad * dolar, "USD");
+//     case cantidad : console.log(cantidad,  "COP", cantidad * euro, "EUR");
+//     case 'GBP' :  console.log(cantidad,  "COP", cantidad * libraE, "GBP");
+//     alert( `${cantidad} USD son: ${4280 * cantidad} COP \n ${cantidad} EUR ${4728 * cantidad} COP \n ${cantidad} GBP ${5601 * cantidad} COP`); 
+//     break;
+// }
+
+// let USD = 4280;
+// let EUR = 4728;
+// let GBP = 5601;
+// 
+// let cantidad = prompt("Seleccione la cantidad");
+// let Val = prompt("Escribe la divisa");
+// 
+// switch(Val)
+// {
+//     case 'USD' : alert(Val, "COP son:", Val * USD);
+//     case 'EUR' : alert(`${Val} COP son: ${Val} * ${EUR}`);
+//     case 'GBP' : alert(`${Val} COP son: ${Val} * ${GBP}`);
+// }
+
+// let dolar = 4280;
+// let euro = 4728;
+// let libraE = 5601;
 // let cantidad = prompt("cantidad de dinero");
 // console.log(cantidad, "dolares son", dolar *  cantidad, "pesos");
 // console.log(cantidad, "euros son", euro  * cantidad, "pesos");
@@ -201,5 +228,27 @@
 
 
 
-let cantidad = prompt("cantidad de dinero");
-alert( `${cantidad} USD son: ${4280 * cantidad} COP || ${cantidad} EUR ${4728 * cantidad} COP || ${cantidad} GBP ${5601 * cantidad} COP`); 
+// let cantidad = prompt("cantidad de dinero");
+// alert( `${cantidad} USD son: ${4280 * cantidad} COP \n1 ${cantidad} EUR ${4728 * cantidad} COP \n2 ${cantidad} GBP ${5601 * cantidad} COP`); 
+
+
+
+// FOR
+// let tabla = 5;
+// 
+// for (let i = 1;  i <=10 ; i++) {
+//     console.log(tabla, "*", i, "=",  tabla * i);
+//     console.log("-------------------------");
+//     console.log(`${tabla} * ${i} = ${tabla * i}`);
+// }
+
+let tabla = 1;
+for (let i = 1; i <= 10; i++) { 
+            for (i = 1; i <= 1;) {
+                tabla = tabla + 1;
+                console.log(tabla, i);
+        
+        }
+ 
+}
+
