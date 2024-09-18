@@ -242,13 +242,17 @@
 //     console.log(`${tabla} * ${i} = ${tabla * i}`);
 // }
 
-let tabla = 1;
-for (let i = 1; i <= 10; i++) { 
-            for (i = 1; i <= 1;) {
-                tabla = tabla + 1;
-                console.log(tabla, i);
-        
-        }
- 
-}
+// let tabla = 1;
+// for (let i = 1; i <= 10; i++) { 
+//             for (i = 1; i <= 1;) {
+//                 tabla = tabla + 1;
+//                 console.log(tabla, i);
+//         
+//         }
+//  
+// }
 
+for (let i = 0 ;  i < 100 ; i++) {
+    i = i + 1;
+    console.log(i);
+}
