@@ -251,14 +251,97 @@
 //         }
 //  
 // }
-
 // for (let i = 0 ;  i < 100 ; i++) {
 //     i = i + 1;
 //     console.log(i);
 // }
-let num = 1;
+// let num = 1;
+// while ( num <= 100) {
+//     console.log(num);
+//     num++;
+// }
 
-while ( num <= 100) {
-    console.log(num);
-    num++;
+// var num;
+// while ( num = parseInt(prompt("Escribe un numero inferior a 10:")) < 10 ) {
+//  num = num + num;
+//  console.log(num);
+// }
+
+
+
+// let opcion;
+
+// let estado = true;
+
+// let coseno, seno, raiz, numero;
+
+// opciones realizar un calculo matematic
+
+// 1. Raiz
+// 2. Seno
+// 3. Coseno
+
+// while(estado){
+
+// opcion = (parseInt(prompt(`SELECCIONE UN OPCION \n 1. Raiz \n 2. Seno de N1 \n 3. Coseno N1 \n 4. Salir`)));
+
+// switch(opcion){
+
+//   case 1: alert("Selecciono Raiz");
+
+//   numero = (parseFloat(prompt(`INGRESE EL NUMERO PARA CALCULAR LA RAIZ`)));
+//   raiz = Math.sqrt(numero);
+
+//   alert(`LA RAIZ DE ${numero} ES: ${raiz}`);
+
+//   break;
+//   case 2 : alert("Selecciono Seno N1");
+
+//   numero = (parseFloat(prompt(`INGRESE EL NUMERO PARA CALCULAR EL SENO`)));
+//   seno = Math.sin(numero);
+
+//   alert(`EL SENO DE ${numero} ES: ${seno}`);
+
+//   break;
+
+//   case 3 : alert("Selecciono Coseno N1");
+
+//   numero = (parseFloat(prompt(`INGRESE EL NUMERO PARA CALCULAR EL COSENO`)));
+//   coseno = Math.cos(numero);
+
+//   alert(`EL SENO DE ${numero} ES: ${coseno}`);
+
+//   break;
+
+//   case 4: alert("SALIENDO....")
+//   estado = falso;
+//   break;
+// default:
+//     alert("LA OPCION NO EXISTE");
+
+ 
+// }
+// }
+
+const adivina = parseInt((Math.ceil(Math.random()) * 50)) ;
+console.log(adivina);
+let intentos;
+
+var numero = parseInt(prompt("Escribe un numero de 1 a 50"));
+
+while (numero != adivina) {
+    numero = parseInt(prompt("Adivina el numero"));
+    let intentos = intentos + 1;  
+
+    if (numero > adivina) {
+        alert("El numero es menor");
+
+    } else if (numero < adivina) {
+            alert("El numero es mayor");
+    }        else if (numero == adivina) {
+               
+                alert("Felicidades adivinaste el numero en ", intentos, "intentos");
+            }
 }
+    
+
