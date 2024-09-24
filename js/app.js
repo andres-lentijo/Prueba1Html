@@ -378,15 +378,80 @@ function exponente(base, cuadrado){
 
 console.log(`El Area es: ${exponente(a,b)}`);
 */
+/*
+let a = 4;
+let b = 5;
 
-let temp = parseInt(prompt("Temperatura:"));
-
-function ctok(temp) {
-
-    const k = temp + 273.15;
-    return(k);
+function suma(a, b){
+    
 }
 
+console.log(a + b);
+*/
+// Funcion tradicional
+/*
+function multiplicacion(a,b){
+    return a * b;
+}
+
+console.log(multiplicacion(8,5));
+*/
+// Funcion flecha (Arrow)
+/*
+let multplicacionUno = (a,b) => {
+    return a * b;
+}
+
+console.log(multplicacionUno(2,5));
+*/
+// Multiplicacion forma 3
+/*
+let multiplicacionTres = (a,b) => a * b;
+console.log(multiplicacionTres(4,8));
+
+let s = 13; 
+
+let raiz = (s) => Math.sqrt(s);
+console.log(raiz(s));
 
 
 
+let funcion = () => console.log("Funcion vacia");
+funcion();
+*/
+
+
+var numeros = ["Uno", "Dos", "Tres", "Cuatro", "Cinco"]
+console.log(numeros.indexOf());
+
+console.log(numeros);
+
+console.log(numeros.push("Seis"));
+
+console.log(numeros);
+
+console.log(numeros.unshift("Cero"));
+
+console.log(numeros);
+
+console.log(numeros.splice(2, 0, 1.5));
+
+console.log(numeros);
+
+console.log(numeros.pop());
+
+console.log(numeros);
+
+console.log(numeros.shift());
+
+console.log(numeros);
+
+console.log(numeros.indexOf());
+
+console.log(numeros);
+
+console.log(numeros.indexOf(1.5));
+
+numeros.forEach((num) => console.log(num));
+
+numeros.forEach((num) => { console.log(num); console.log(num + " - " + num) } );
