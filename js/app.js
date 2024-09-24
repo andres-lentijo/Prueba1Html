@@ -420,7 +420,7 @@ let funcion = () => console.log("Funcion vacia");
 funcion();
 */
 
-
+/*
 var numeros = ["Uno", "Dos", "Tres", "Cuatro", "Cinco"]
 console.log(numeros.indexOf());
 
@@ -455,3 +455,27 @@ console.log(numeros.indexOf(1.5));
 numeros.forEach((num) => console.log(num));
 
 numeros.forEach((num) => { console.log(num); console.log(num + " - " + num) } );
+
+*/
+/*
+var numeros = ["Uno", "Dos", "Tres", "Cuatro", "Cinco"]
+console.log(numeros.indexOf());
+
+numeros.forEach((num) => console.log(num));
+
+if (num == numeros[2]){
+    console.log(num);
+}
+*/
+let vector = [];
+
+console.log(vector);
+
+vector[0] = "Uno";
+vector[1] = "Dos";
+vector[2] = "Tres";
+vector[3] = "Cuatro";
+
+console.log(vector);
+
+vector.forEach((num) => { console.log(num); });
