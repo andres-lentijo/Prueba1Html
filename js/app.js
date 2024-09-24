@@ -323,25 +323,70 @@
 // }
 // }
 
-const adivina = parseInt((Math.ceil(Math.random()) * 50)) ;
-console.log(adivina);
-let intentos;
+// const adivina = parseInt((Math.ceil(Math.random()) * 50)) ;
+// console.log(adivina);
+// let intentos;
 
-var numero = parseInt(prompt("Escribe un numero de 1 a 50"));
+// var numero = parseInt(prompt("Escribe un numero de 1 a 50"));
 
-while (numero != adivina) {
-    numero = parseInt(prompt("Adivina el numero"));
-    let intentos = intentos + 1;  
+// while (numero != adivina) {
+//     numero = parseInt(prompt("Adivina el numero"));
+//     let intentos = intentos + 1;  
 
-    if (numero > adivina) {
-        alert("El numero es menor");
+//     if (numero > adivina) {
+//         alert("El numero es menor");
 
-    } else if (numero < adivina) {
-            alert("El numero es mayor");
-    }        else if (numero == adivina) {
+//     } else if (numero < adivina) {
+//             alert("El numero es mayor");
+//     }        else if (numero == adivina) {
                
-                alert("Felicidades adivinaste el numero en ", intentos, "intentos");
-            }
-}
+//                 alert("Felicidades adivinaste el numero en ", intentos, "intentos");
+//             }
+// }
     
+// var ball = " ";
+// var numero = parseInt(prompt("Escribe un numero:"));
+// for (var i = 0 ; i <= numero ; i++) {
+//    ball += "*";
+//    console.log(ball);
+// }
+
+
+// saludar("Pedro");
+
+// function saludar(nombre){
+//     alert(`Hola ${nombre}`);
+// }
+
+
+/*
+let numero = 12;
+
+function raiz(numero){
+    return Math.sqrt(numero);
+}
+
+raiz(32);
+console.log(raiz(12).toFixed(5));
+
+const a = 12;
+const b = 6;
+
+function exponente(base, cuadrado){
+    return Math.pow(base, cuadrado);
+}
+
+console.log(`El Area es: ${exponente(a,b)}`);
+*/
+
+let temp = parseInt(prompt("Temperatura:"));
+
+function ctok(temp) {
+
+    const k = temp + 273.15;
+    return(k);
+}
+
+
+
 
