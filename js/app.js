@@ -467,15 +467,93 @@ if (num == numeros[2]){
     console.log(num);
 }
 */
+// let vector = [];
+
+// console.log(vector);
+
+// vector[0] = "Uno";
+// vector[1] = "Dos";
+// vector[2] = "Tres";
+// vector[3] = "Cuatro";
+
+// console.log(vector);
+
+// vector.forEach((num) => { console.log(num); });
+
+
 let vector = [];
 
-console.log(vector);
+// Loop para llenar
 
-vector[0] = "Uno";
-vector[1] = "Dos";
-vector[2] = "Tres";
-vector[3] = "Cuatro";
+// for(let i = 0 ; i <= 5 ; i++ ){
+ 
+// vector.push(i+1);
+ 
+// }
 
-console.log(vector);
+// for(let i = 0; i <= 5 ; i++){
+//     console.log(vector[i]);
+// }
 
-vector.forEach((num) => { console.log(num); });
+// let suma = 0;
+// let numeros = [12, 23, 18, 16, 19];
+
+// for(let i = 0 ; i < numeros.length; i++){
+  
+//   suma += numeros[i];
+// }
+// console.log(`"La suma es:", ${suma}`)
+
+
+// for( let x = 0 ; x <= 10 ; x++ ){
+//   console.log(x); 
+// }
+
+
+// let impar = 0;
+// let num = [12, 23, 18, 16, 19];
+
+// for(let i = 0 ; i < num.length; i++){
+ 
+//   impar += num [i];
+
+// if(num[i] % 2 == 0){
+//   let par = num[i];
+//   console.log(par);
+// } else if ( num[i] % 2 != 0){
+//   let impar = num[i];
+// }
+  
+// }
+
+// num.forEach((element) => console.log(element));
+
+
+
+// let numeros = [12,23,18,16,19];
+
+// for(let i = 0 ; i < numeros.length ; i++ ){
+//   console.log(i);
+// }
+
+// numeros[i];
+
+// if(numeros[i] % 2 == 0){
+//     console.log("Par", numeros);
+// }
+
+
+// numeros.forEach((a) => console.log(a % 2));
+
+// let num = new Array(5);
+
+// for (let i = 0 i < num.length, i++ ){
+//   num[i] = parseInt(prompt("Ingrese numero entero:"));
+// } 
+
+// for(let i = 0 ; i < num.length; i++){
+//   console.log(`${num[i]}`);
+// }
+
+
+
